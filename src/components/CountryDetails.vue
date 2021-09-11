@@ -33,15 +33,15 @@
         </div>
       </div>
     </div>
-    <div class="relative border py-6 px-5 leading-relaxed shadow-sm">
+    <div class="border py-6 px-5 leading-relaxed shadow-sm flex flex-col relative justify-between z-10">
       LatLong
-      <div class="text-indigo-500 text-5xl font-bold">{{ latlng }}</div>
-      <div class="absolute top-0 right-0">
+      <div class="text-indigo-500 text-5xl font-bold ">{{ latlng }}</div>
+      <div class="z-0 absolute top-0 right-0">
         <svg
-          width="160"
-          height="160"
+          width="300"
+          height="270"
           viewBox="0 0 496 512"
-          class="object-top"
+          class="z-0"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -53,6 +53,7 @@
         </svg>
       </div>
     </div>
+    
 
     <div class="border py-6 px-5 shadow-sm">
       <ul class="leading-relaxed">
@@ -62,7 +63,7 @@
       </ul>
     </div>
 
-    <div class="leading-loose pt-3">
+    <div class="leading-loose pt-3 z-20 border border-transparent bg-gray-50">
       <div>Calling Code</div>
       <div class="text-indigo-500 text-5xl font-bold">{{ callingCodes }}</div>
       <div>
