@@ -33,9 +33,21 @@
         </div>
       </div>
     </div>
-    <div class="border py-6 px-5 leading-relaxed shadow-sm flex flex-col relative justify-between z-10">
+    <div
+      class="
+        border
+        py-6
+        px-5
+        leading-relaxed
+        shadow-sm
+        flex flex-col
+        relative
+        justify-between
+        z-10
+      "
+    >
       LatLong
-      <div class="text-indigo-500 text-5xl font-bold ">{{ latlng }}</div>
+      <div class="text-indigo-500 text-5xl font-bold">{{ latlng }}</div>
       <div class="z-0 absolute top-0 right-0">
         <svg
           width="300"
@@ -53,7 +65,6 @@
         </svg>
       </div>
     </div>
-    
 
     <div class="border py-6 px-5 shadow-sm">
       <ul class="leading-relaxed">
