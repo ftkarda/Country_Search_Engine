@@ -1,9 +1,9 @@
-# Built with
+# Modules tambahan
 
-- [Vuex](https://vuex.vuejs.org/) - Vue.js state management pattern and library
-- [Axios](https://github.com/axios/axios) - Promise based HTTP client (for the browser and node.js)
-- [Tailwind]
-- [FontAwesome]
+- Vuex
+- Axios 
+- Tailwind
+- FontAwesome
 
 # Cara run program
 
